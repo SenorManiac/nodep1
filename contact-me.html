@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Only Grandpas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Only Grandpas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>Have a burning question about our legendary grandpas or want to submit your own tales of epic naps and perfectly grilled burgers? We'd love to hear from you!</p>
+            <form action="submit_form" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="E.g., Earl McGrandpa" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="E.g., grandpa@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us your grandpa secrets..." required></textarea>
+                </div>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+            <p>Or, send us a telegram at our headquarters: <strong>555-GRANDPA</strong>. Smoke signals also accepted.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Only Grandpas. Your source for dad jokes, granddad wisdom, and everything in between.</p>
+    </footer>
+</body>
+</html>
